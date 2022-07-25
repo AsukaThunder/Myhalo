@@ -4,7 +4,7 @@ ARG JAR_FILE=build/libs/*.jar
 COPY ${JAR_FILE} application.jar
 RUN java -Djarmode=layertools -jar application.jar extract
 
-################################
+#####################dfgsdfsdfsd###########
 
 FROM adoptopenjdk:11-jre
 MAINTAINER asukathunder <783014681@qq.com>
